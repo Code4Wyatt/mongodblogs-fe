@@ -21,6 +21,7 @@ const BlogList = (props) => {
   
   useEffect(() => {
     fetchBlogData();
+    console.log(blogData)
   }, []);
   
 
